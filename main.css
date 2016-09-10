@@ -1,0 +1,43 @@
+﻿body {
+    background:url("bg1.jpg") no-repeat center ;
+    background-size:cover;
+    min-height:800px;
+    color:white;
+    overflow:hidden;
+}
+.jumbo{
+    background-color:transparent;
+    text-transform:uppercase;
+    text-align:center;
+    text-shadow: 2px 2px #ff0000;
+    font-size:100px;
+}
+.jumbo h1{
+    font-size:15vh;
+    
+}
+#learnmore{
+    height:auto;
+    width:50vh;
+    text-align:center;
+    position:relative;
+    border:solid;
+    background-color:#F0B27A;
+    border-radius:40px;
+    text-decoration:none;
+}
+
+#learnmore h2{
+    padding-bottom:4%;
+    text-align:center;
+}
+#learnmore a{
+    padding-bottom:4%;
+    text-decoration:none;
+    color:white;
+}
+#learnmore:hover{
+    background-color:#2ECC71;
+    box-shadow: 10px 10px 5px black;
+
+}
