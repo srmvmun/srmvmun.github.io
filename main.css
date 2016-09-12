@@ -22,7 +22,7 @@
     text-align:center;
     position:relative;
     border:solid;
-    background-color:#F0B27A;
+    background-color:#2ECC71;
     border-radius:40px;
     text-decoration:none;
 }
@@ -37,7 +37,7 @@
     color:white;
 }
 #learnmore:hover{
-    background-color:#2ECC71;
-    box-shadow: 10px 10px 5px black;
+    background-color:#2980B9;
+    box-shadow: 5px 5px 5px 5px black;
 
 }
