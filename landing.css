@@ -41,7 +41,7 @@
       text-transform:uppercase;
       text-align:center;
       font-size:40px;
-      color:#7D3C98;
+      color:black;
   }
   .jumbo h1{
       font-size:100px;
@@ -55,4 +55,8 @@
       text-align:center;
   }
   .hola{
+  }
+  #log{
+      height:80px;
+      width:80px;
   }
