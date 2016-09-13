@@ -60,3 +60,7 @@
       height:80px;
       width:80px;
   }
+  #chutiya{
+      background:rgba(35, 183, 170, 0.29);
+      z-index:+10;
+  }
