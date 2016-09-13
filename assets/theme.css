@@ -1,0 +1,57 @@
+﻿@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+
+body {
+    background:url("bg221.jpg") no-repeat;
+    z-index:0;
+    background-size:inherit;
+    background-attachment:fixed;
+    background-position-x:center;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+#nav{
+    background-color:rgba(142, 235, 138, 0.26);
+    background-color:transparent;
+}
+.jumbo{
+      background-color:transparent;
+      text-transform:uppercase;
+      text-align:center;
+      margin-top:1.5vw;
+      color:rgba(98, 219, 232, 0.95);
+  }
+ .jumbo p{
+      background-color:rgba(69, 68, 68, 0.4);
+      border-radius:40px;
+      text-transform:uppercase;
+      text-align:center;
+      
+      font-size:3vw;
+      margin-top:4vw;
+      color:rgb(32, 211, 161);
+  }
+  .jumbo h1{
+      font-size:10vw;
+      font-family:Playfair Display;
+      text-shadow: 2px 0px 0px rgb(242, 109, 109), 0px 2px 0px rgb(242, 109, 109), 0px 3px 0px rgb(242, 109, 109), 0px 4px 0px rgb(242, 109, 109), 0px 5px 0px rgb(242, 109, 109), 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(0, 0, 0, 0.25), 0px 20px 20px rgba(0, 0, 0, 0.15);
+  }
+ #chutiya{
+      background:rgba(35, 183, 170, 0.29);
+      z-index:+10;
+  }
+ .hutiya {
+        margin-top:2vw;
+        font-size:4vw;
+        font-weight:600;
+    }
+ .part1{
+     height:100%;
+     width:100%;
+     margin-bottom:20%;
+ }
+ .part2{
+     background-color:rgba(35, 34, 34, 0.63);
+    
+ }
