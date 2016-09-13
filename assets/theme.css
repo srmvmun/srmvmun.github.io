@@ -3,7 +3,7 @@
 body {
     background:url("bg221.jpg") no-repeat;
     z-index:0;
-    background-size:inherit;
+    background-size:cover;
     background-attachment:fixed;
     background-position-x:center;
     height: 100%;
@@ -53,5 +53,123 @@ body {
  }
  .part2{
      background-color:rgba(35, 34, 34, 0.63);
-    
+     text-align:center;
+     display:inline-block;
+     position:relative;
  }
+ .part2 h1{
+     text-decoration:underline;
+     font-size:3em;
+
+ }
+ .part2 p{
+     text-decoration:none;
+     font-size:1.5em;
+     text-align:justify;
+     height:auto;
+
+ }
+ .footer{
+     background-color:rgba(241, 112, 112, 0.53);
+     color:rgb(0, 0, 0);
+     font-size:2em;
+ }
+ .footer p{
+     margin-top:4vh;
+     margin-bottom:4vh;
+ }
+ .imga{
+     width:100%;
+     height:70vh;
+     border:solid;
+     border-radius:20px;
+ }
+ .img:hover .degig{
+     color:wheat;
+     background-color:rgba(224, 186, 186, 0.49);
+ }
+ .message{
+     display:inline-block;
+     position:relative;
+     text-align:justify;
+ }
+ .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
