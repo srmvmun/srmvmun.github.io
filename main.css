@@ -17,13 +17,13 @@
     
 }
 #learnmore{
-    height:13vh;
+    height:auto;
     width:20vh;
     text-align:center;
     position:relative;
     border:solid;
     background-color:rgba(60, 52, 52, 0.69);
-    border-radius:100%;
+    border-radius:40px;
     text-decoration:none;
 }
 
