@@ -1,5 +1,8 @@
 ﻿@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
-
+*{
+    position:relative;
+    text-align:center;
+}
 body {
     background:url("bg221.jpg") no-repeat;
     z-index:0;
@@ -9,27 +12,12 @@ body {
     height: 100%;
     color: #fff;
     text-align: center;
-    text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
-.navbar {
-    background:rgb(51, 51, 55);
-    border:none;
-    color:white;
-}
 .dropdown:hover .dropdown-menu {
-    display: block;
+    display:initial;
     margin-top: 0;
-    border:none;
-    border-left:solid;
-    border-color:white;
- }
-.dropdown-menu li{
-    background-color:transparent;
-}
-.dropdown-menu li:hover{
-    background-color:green;
-    transition:all 1s ease-in;
+    text-align:center;
 }
 .jumbo{
       background-color:transparent;
@@ -49,7 +37,7 @@ body {
   }
   .jumbo h1{
       font-size:10vw;
-      font-family:Helvetica;
+      font-family:Calibri;
       text-shadow: 2px 0px 0px rgb(87, 85, 85), 0px 2px 0px rgb(87, 85, 85), 0px 3px 0px rgb(87, 85, 85), 0px 4px 0px rgb(87, 85, 85), 0px 5px 0px rgb(87, 85, 85), 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(0, 0, 0, 0.25), 0px 20px 20px rgba(0, 0, 0, 0.15);
   }
  #chutiya{
@@ -124,7 +112,17 @@ body {
      opacity:0.5;
  }
  .log{
-     height:30px;
-     width:40px;
+     height:40px;
+     width:60px;
      margin-top:0px;
+     padding-top:0%;
+     top:0;
+     margin-bottom:2%;
+ }
+ .content{
+     background-color:rgba(230, 136, 110, 0.61);
+     color:white;
+     font-size:2em;
+     text-align:center;
+     margin-top:5%;
  }
