@@ -1,6 +1,6 @@
 ﻿@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
 body {
-    background:url("nw.png") no-repeat;
+    background:url("nw.jpg") no-repeat;
     z-index:0;
     background-size:cover;
     background-attachment:fixed;
@@ -23,14 +23,18 @@ body {
       color:white;
   }
  .jumbo p{
-      background-color:rgba(69, 68, 68, 0.4);
       border-radius:40px;
       text-transform:uppercase;
-      text-align:center;
+      text-align:right;
       font-size:3vw;
-      margin-top:4vw;
-      color:white;
+      color:black;;
+      text-shadow:2px 2px 2px rgb(46, 143, 200)
   }
+hr{
+     background-color:black;
+     width:inherit;
+     
+ }
   .jumbo h1{
       font-size:10vw;
       font-family:Calibri;
@@ -44,7 +48,7 @@ body {
         margin-top:1vw;
         font-size:4vw;
         font-weight:600;
-        color:rgba(241, 112, 112, 0.53)
+        color:rgb(235, 38, 38)
     }
  .part1{
      height:100%;
