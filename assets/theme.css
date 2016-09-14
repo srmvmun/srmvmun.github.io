@@ -11,22 +11,11 @@ body {
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
-@media(min-height:100px){
-    .navbar{
-        background-color:transparent;
-    }
-}
 
 .navbar {
-    background:transparent;
+    background:rgb(51, 51, 55);
     border:none;
     color:white;
-}
-.nav.navbar-nav.navbar-right li a {
-    color: blue;
-}
-.dropdown-menu {
-    background:transparent;
 }
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -60,7 +49,7 @@ body {
   }
   .jumbo h1{
       font-size:10vw;
-      font-family:Playfair Display;
+      font-family:Helvetica;
       text-shadow: 2px 0px 0px rgb(87, 85, 85), 0px 2px 0px rgb(87, 85, 85), 0px 3px 0px rgb(87, 85, 85), 0px 4px 0px rgb(87, 85, 85), 0px 5px 0px rgb(87, 85, 85), 0px 6px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.3), 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(0, 0, 0, 0.25), 0px 20px 20px rgba(0, 0, 0, 0.15);
   }
  #chutiya{
@@ -133,4 +122,9 @@ body {
  }
  .content:hover{
      opacity:0.5;
+ }
+ .log{
+     height:30px;
+     width:40px;
+     margin-top:0px;
  }
