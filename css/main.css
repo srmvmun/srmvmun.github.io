@@ -1001,6 +1001,7 @@ textarea.form-control {
 .contact-details h3 {
     border-bottom: 1px solid #008ecc;
     font-weight: 700;
+    font-size:12px;
     margin-bottom: 15px;
     padding-bottom: 15px;
     text-transform: uppercase;
