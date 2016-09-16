@@ -722,6 +722,27 @@ ul.external li a:hover {
 }
 
 /*=================================================================
+
+                Team
+==================================================================*/
+#team {
+    padding: 40px 30px;
+   background-color:#009EE3;
+   color:#fff;   
+}
+
+.team-member img {
+    border: 3px solid #fff;
+    border-radius: 100%;
+    display: inline-block;
+    height: auto;
+    width:auto;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+
+/*=================================================================
 	Testimonials
 ==================================================================*/
 
