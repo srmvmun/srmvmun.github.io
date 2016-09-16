@@ -978,7 +978,7 @@ textarea.form-control {
 }
 
 .contact-details h3 {
-    border-bottom: 0px solid #008ecc;
+    border-bottom: 1px solid #008ecc;
     font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 15px;
