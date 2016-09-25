@@ -528,9 +528,9 @@ h1.navbar-brand {
 
 #about .welcome-block img {
     border: 3px solid #fff;
-    border-radius: 50%;
+    border-radius: 10%;
     margin-right: 35px;
-    max-width: 100px;
+    max-width: 300px;
 }
 
 #about .message-body {
