@@ -730,6 +730,11 @@ ul.external li a:hover {
    background-color:#009EE3;
    color:#fff;   
 }
+.team {
+    padding: 40px 30px;
+   background-color:rgba(116, 159, 240, 0.5);
+   color:#fff;   
+}
 
 .team-member img {
     border: 3px solid #fff;
